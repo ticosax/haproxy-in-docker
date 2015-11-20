@@ -2,7 +2,7 @@
 
 ## start
 ```bash
-docker run -v --net=your-netowrk /etc/opt/haproxy/:/etc/haproxy/ --name=haproxy lock8/haproxy-in-docker:latest
+docker run -v --net=your-netowrk /etc/opt/haproxy/:/etc/haproxy/ --name=haproxy quay.io/lock8/haproxy-in-docker:latest
 ```
 
 ## one backend
