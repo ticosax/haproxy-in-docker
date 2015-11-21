@@ -7,6 +7,7 @@ ADD reload.sh /reload.sh
 ADD start.sh /start.sh
 
 VOLUME /etc/haproxy/
+VOLUME /var/run
 
 EXPOSE 8080
 
