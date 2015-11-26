@@ -1,5 +1,7 @@
 # haproxy
 
+[![Docker Repository on Quay](https://quay.io/repository/lock8/haproxy-in-docker/status "Docker Repository on Quay")](https://quay.io/repository/lock8/haproxy-in-docker)
+
 ## start
 ```bash
 docker run -v --net=your-netowrk /etc/opt/haproxy/:/etc/haproxy/ --name=haproxy --privileged quay.io/lock8/haproxy-in-docker:latest
