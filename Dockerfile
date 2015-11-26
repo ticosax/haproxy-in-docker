@@ -1,7 +1,7 @@
 FROM alpine:3.2
 MAINTAINER "Nicolas Delaby" <nicolas.delaby@lock8.me>
 
-RUN apk add --update haproxy
+RUN apk add --update haproxy iptables
 
 ADD reload.sh /reload.sh
 ADD start.sh /start.sh
