@@ -10,5 +10,6 @@ VOLUME /etc/haproxy/
 VOLUME /var/run/haproxy
 
 EXPOSE 8080
+EXPOSE 1936
 
 CMD ["/start.sh"]
